@@ -1,0 +1,13 @@
+:host{
+    text-align: center;
+}
+
+#contents{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+h1{
+    text-shadow: 0px 2px 1px #35cf66;
+}

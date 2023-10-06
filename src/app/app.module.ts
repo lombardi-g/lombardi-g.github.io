@@ -8,6 +8,7 @@ import { LogoMainComponent } from './logo-main/logo-main.component';
 import { SubTitleComponent } from './sub-title/sub-title.component';
 import { ArrowsComponent } from './arrows/arrows.component';
 import { MainHeaderComponent } from './main-header/main-header.component';
+import { SkillsContainerComponent } from './skills-container/skills-container.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainHeaderComponent } from './main-header/main-header.component';
     LogoMainComponent,
     SubTitleComponent,
     ArrowsComponent,
-    MainHeaderComponent
+    MainHeaderComponent,
+    SkillsContainerComponent
   ],
   imports: [
     BrowserModule,
