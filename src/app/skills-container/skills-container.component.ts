@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class SkillsContainerComponent {
 
+// var skillsHeader = document.getElementById('skills-header');
+
+
+
 }
