@@ -80,28 +80,74 @@
 
 
 @keyframes moveUpDown {
-    0% {
-        height: none;
-    }
-    50% {
-        height: 100px;
-    }
-    100%{
-        height: none;
-    }
+    0% {height: none;}
+    50% {height: 100px;}
+    100%{height: none;}
 }
 
-.pie {
-    margin-top: 5vh;
-    height: 150px;
-    width: 150px;
+#pie-chart {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    /* margin: 3px auto; */
+    margin-top: auto;
+  }
+  
+  .circle {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    background: conic-gradient(
-            deepskyblue 0% 25%,
-            rgba(23, 192, 235, 0.5) 25% 85%,
-            #FFFFFF 85%);
-}
-
+    position: absolute;
+  }
+  
+  .animate {
+    -webkit-transition: 0.2s cubic-bezier(.74,1.13,.83,1.2);
+    -moz-transition: 0.2s cubic-bezier(.74,1.13,.83,1.2);
+    -o-transition: 0.2s cubic-bezier(.74,1.13,.83,1.2);
+    transition: 0.2s cubic-bezier(.74,1.13,.83,1.2);
+  }
+  
+  .animate:hover {
+    transform: scale(1.1);
+    background: #55efc4;
+    transform-origin: center center;
+  }
+  
+  #part1 {
+    background-color: dodgerblue;
+    -webkit-clip-path: polygon(50% 0, 50% 50%, 100% 41.2%, 100% 0);
+    clip-path: polygon(50% 0, 50% 50%, 100% 41.2%, 100% 0);
+  }
+  
+  #part2 {
+    background-color: #11A8AB;
+    -webkit-clip-path: polygon(50% 50%, 100% 41.2%, 100% 100%, 63.4% 100%);
+    clip-path: polygon(50% 50%, 100% 41.2%, 100% 100%, 63.4% 100%);
+  }
+  
+  #part3 {
+    background-color: #fff;
+    -webkit-clip-path: polygon(50% 50%, 36.6% 100%, 63.4% 100%);
+    clip-path: polygon(50% 50%, 36.6% 100%, 63.4% 100%);
+  }
+  
+  #part4 {
+    background-color: darkcyan;
+    -webkit-clip-path: polygon(50% 50%, 0 100%, 36.6% 100%);
+    clip-path: polygon(50% 50%, 0 100%, 36.6% 100%);
+  }
+  
+  #part5 {
+    background-color: rgba(23, 192, 235, 0.5);
+    -webkit-clip-path: polygon(50% 50%, 0 36.6%, 0 100%);
+    clip-path: polygon(50% 50%, 0 36.6%, 0 100%);
+  }
+  
+  #part6 {
+    background-color: #15BFCC;
+    -webkit-clip-path: polygon(50% 50%, 0 36.6%, 0 0, 50% 0);
+    clip-path: polygon(50% 50%, 0 36.6%, 0 0, 50% 0);
+  }
 @media (max-width: 730px){
 
 
@@ -110,7 +156,7 @@
         display: none;
     }
 
-    .pie {
+    #pie-chart {
         display: none;
     }
 }

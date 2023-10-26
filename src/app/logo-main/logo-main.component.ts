@@ -17,14 +17,4 @@ export class LogoMainComponent {
     return initialHeights[index - 1] || 50;
   }
 
-  // sliceAnimation(index: number): string {
-    // Define animation duration, delay, and timing function for each slice
-  //   const durations = ['4s', '7s', '8s', '3s', '5.5s'];
-  //   const delays = ['0s', '1s', '2s', '3s', '4s'];
-  //   const timingFunctions = ['ease-in-out', 'linear', 'ease-in-out', 'linear', 'ease-in-out'];
-  
-  //   return `rotate 10s ${delays[index - 1]} ${timingFunctions[index - 1]} infinite`;
-  // }
-  
-
 }
