@@ -1,7 +1,7 @@
 #all-logos{
     display: flex;
     justify-content: space-between;
-    width: 80% ;
+    width: 85% ;
     margin: 0 auto;
 }
 
@@ -148,7 +148,7 @@
     -webkit-clip-path: polygon(50% 50%, 0 36.6%, 0 0, 50% 0);
     clip-path: polygon(50% 50%, 0 36.6%, 0 0, 50% 0);
   }
-@media (max-width: 730px){
+@media (max-width: 755px){
 
 
 
