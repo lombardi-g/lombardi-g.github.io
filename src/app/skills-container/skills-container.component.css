@@ -31,3 +31,9 @@ h1{
     justify-content: center;
     margin-bottom: 1.5rem;
 }
+
+@media (max-width : 600px){
+    h2{
+    font-size: medium;
+    }
+}
