@@ -1,11 +1,23 @@
+#all-logos{
+    display: flex;
+    justify-content: space-between;
+    width: 80% ;
+    margin: 0 auto;
+}
+
+#texts{                                           
+    display: flex;
+    padding-top: 5vh;
+}
+
 .chart{
     width: 200px;
     height: 100px;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,50%);
+
 }
 
 .bars{
@@ -76,5 +88,29 @@
     }
     100%{
         height: none;
+    }
+}
+
+.pie {
+    margin-top: 5vh;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: conic-gradient(
+            deepskyblue 0% 25%,
+            rgba(23, 192, 235, 0.5) 25% 85%,
+            #FFFFFF 85%);
+}
+
+@media (max-width: 730px){
+
+
+
+    #texts{
+        display: none;
+    }
+
+    .pie {
+        display: none;
     }
 }
