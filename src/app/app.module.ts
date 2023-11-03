@@ -9,6 +9,7 @@ import { SubTitleComponent } from './sub-title/sub-title.component';
 import { ArrowsComponent } from './arrows/arrows.component';
 import { MainHeaderComponent } from './main-header/main-header.component';
 import { SkillsContainerComponent } from './skills-container/skills-container.component';
+import { ExperienceContainerComponent } from './experience-container/experience-container.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SkillsContainerComponent } from './skills-container/skills-container.co
     SubTitleComponent,
     ArrowsComponent,
     MainHeaderComponent,
-    SkillsContainerComponent
+    SkillsContainerComponent,
+    ExperienceContainerComponent
   ],
   imports: [
     BrowserModule,

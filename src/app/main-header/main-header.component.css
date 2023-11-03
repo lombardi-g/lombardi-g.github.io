@@ -12,19 +12,37 @@ app-title{
 }
 
 app-logo-main{
+    /* display: flex;
     align-items: center;
-    margin-block: auto;
+    justify-content: center; */
+    margin-top: auto;
+    /* margin-bottom: auto; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* padding-left: auto;  */
+    /* padding-right: auto; */
+    /* margin: auto unset; */
+    /* margin-block: auto; */
+
 }
-
-@media (max-width: 730px){ app-logo-main{ margin-block: unset; margin-bottom: auto;}}
-
 app-sub-title{
+    margin-top: auto;
     margin-bottom: auto;
-}
 
+}
 app-arrows{
     bottom: 0;
     position: absolute;
     left: 47%;
     align-items: center;
 }
+
+@media (max-width: 720px){ 
+app-logo-main{
+    margin-top: unset;
+}}
+
+@media (max-height: 550px) {
+    app-arrows{display: none;}
+}
+

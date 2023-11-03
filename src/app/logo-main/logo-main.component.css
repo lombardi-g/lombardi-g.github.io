@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 85% ;
-    margin: 0 auto;
+    margin: auto 0px auto calc(3%)
 }
 
 #texts{                                           
@@ -13,10 +13,10 @@
 .chart{
     width: 200px;
     height: 100px;
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     right: 50%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%,50%); */
 
 }
 
@@ -148,15 +148,21 @@
     -webkit-clip-path: polygon(50% 50%, 0 36.6%, 0 0, 50% 0);
     clip-path: polygon(50% 50%, 0 36.6%, 0 0, 50% 0);
   }
-@media (max-width: 755px){
+@media (max-width: 720px){
 
 
+    .chart{
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%,50%);
 
+    }
     #texts{
-        display: none;
+      display: none;
     }
 
     #pie-chart {
-        display: none;
+      display: none;
     }
 }
