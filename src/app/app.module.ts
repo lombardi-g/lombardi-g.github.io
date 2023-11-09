@@ -10,6 +10,7 @@ import { ArrowsComponent } from './arrows/arrows.component';
 import { MainHeaderComponent } from './main-header/main-header.component';
 import { SkillsContainerComponent } from './skills-container/skills-container.component';
 import { ExperienceContainerComponent } from './experience-container/experience-container.component';
+import { EducationContainerComponent } from './education-container/education-container.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ExperienceContainerComponent } from './experience-container/experience-
     ArrowsComponent,
     MainHeaderComponent,
     SkillsContainerComponent,
-    ExperienceContainerComponent
+    ExperienceContainerComponent,
+    EducationContainerComponent
   ],
   imports: [
     BrowserModule,

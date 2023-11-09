@@ -1,3 +1,17 @@
 :host{
     text-align: center;
 }
+
+h1{
+    text-shadow: 0px 2px 1px #35cf66;
+}
+
+#companies {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#companies img{
+    max-width: 28vw;
+}
