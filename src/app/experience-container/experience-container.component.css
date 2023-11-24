@@ -13,5 +13,16 @@ h1{
 }
 
 #companies img{
-    max-width: 28vw;
+    max-width: 12vw;
+    background-size: cover;
 }
+
+#experience-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+/* 
+p{
+    margin-bottom: auto;
+} */
