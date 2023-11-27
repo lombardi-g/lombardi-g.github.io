@@ -13,7 +13,7 @@ private applyTextOnHover = function(hoverElem: HTMLElement, textElem: HTMLElemen
 
 ngOnInit(){
 
-var experienceHeaderText = document.getElementById('skills-header')!;
+var experienceHeaderText = document.getElementById('experience-header')!;
 
 // no hover
 var expColumns = document.getElementsByTagName('div');
@@ -23,13 +23,13 @@ for(var i = 0; i < expColumns.length; i++) {
 
 // hover over skills
 var spprospektCo = document.getElementById('spprospekt')!;
-this.applyTextOnHover(spprospektCo, experienceHeaderText, 'mouseover', '');
+this.applyTextOnHover(spprospektCo, experienceHeaderText, 'mouseover', 'Logistics, operation, foreign commerce');
 
 var mrvCo = document.getElementById('mrv')!;
-this.applyTextOnHover(mrvCo, experienceHeaderText, 'mouseover', 'HTML');
+this.applyTextOnHover(mrvCo, experienceHeaderText, 'mouseover', 'Engineering, consulting, product management');
 
 var figueirenseFc = document.getElementById('figueirense')!;
-this.applyTextOnHover(figueirenseFc, experienceHeaderText, 'mouseover', '');
+this.applyTextOnHover(figueirenseFc, experienceHeaderText, 'mouseover', 'Data analytics, process mapping, project development');
 
 }
 }
