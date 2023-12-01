@@ -4,6 +4,7 @@
 
 h1{
     text-shadow: 0px 2px 1px #35cf66;
+    margin-top: 8vh;
 }
 
 #companies {
@@ -13,8 +14,9 @@ h1{
 }
 
 #companies img{
-    max-width: 12vw;
-    background-size: cover;
+    max-width: 11vw;
+    /* background-size: cover; */
+    object-fit: contain;
 }
 
 #experience-header{
