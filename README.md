@@ -1,6 +1,6 @@
 # Lombardi Personal website
 
-<a href="https://angular.io/">
+<a href="https://github.com/angular">
 <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white">
 </a><br>
 <br>
@@ -16,4 +16,4 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
 
-## Website under development!
+<!-- ## Website under development! -->
