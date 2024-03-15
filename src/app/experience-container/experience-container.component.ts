@@ -22,14 +22,16 @@ for(var i = 0; i < expColumns.length; i++) {
 }
 
 // hover over skills
-var spprospektCo = document.getElementById('spprospekt')!;
-this.applyTextOnHover(spprospektCo, experienceHeaderText, 'mouseover', 'Logistics, operation, foreign commerce');
+// var spprospektCo = document.getElementById('spprospekt')!;
+// this.applyTextOnHover(spprospektCo, experienceHeaderText, 'mouseover', 'Logistics, operation, foreign commerce');
 
 var mrvCo = document.getElementById('mrv')!;
 this.applyTextOnHover(mrvCo, experienceHeaderText, 'mouseover', 'Engineering, consulting, product management');
 
 var figueirenseFc = document.getElementById('figueirense')!;
-this.applyTextOnHover(figueirenseFc, experienceHeaderText, 'mouseover', 'Data analytics, process mapping, project development');
+this.applyTextOnHover(figueirenseFc, experienceHeaderText, 'mouseover', 'Sports analytics, process mapping, project development');
 
+var ultragaz = document.getElementById('ultragaz')!;
+this.applyTextOnHover(ultragaz, experienceHeaderText, 'mouseover', 'Business inteligence, SQL, data analytics');
 }
 }
