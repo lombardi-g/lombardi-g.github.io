@@ -15,8 +15,9 @@ h1{
 
 #companies img{
     max-width: 11vw;
-    /* background-size: cover; */
-    object-fit: contain;
+    max-height: 11vw;
+    /* background-size: cover; 
+    object-fit: contain;*/
 }
 
 #experience-header{
@@ -24,6 +25,11 @@ h1{
     justify-content: center;
     margin-bottom: 1.5rem;
 }
+
+#atlassian img{
+    max-width: 9.5vw;
+}
+
 /* 
 p{
     margin-bottom: auto;

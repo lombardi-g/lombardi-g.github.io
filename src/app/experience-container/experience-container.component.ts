@@ -33,5 +33,8 @@ this.applyTextOnHover(figueirenseFc, experienceHeaderText, 'mouseover', 'Sports 
 
 var ultragaz = document.getElementById('ultragaz')!;
 this.applyTextOnHover(ultragaz, experienceHeaderText, 'mouseover', 'Business inteligence, SQL, data analytics');
+
+var atlassian = document.getElementById('atlassian')!;
+this.applyTextOnHover(atlassian, experienceHeaderText, 'mouseover', 'ITSM, Customer support services')
 }
 }
