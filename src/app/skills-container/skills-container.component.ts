@@ -64,8 +64,11 @@ this.applyTextOnHover(poSkill, skillsHeaderText, 'mouseover', 'Product Managemen
 var gitSkill = document.getElementById('git-skill')!;
 this.applyTextOnHover(gitSkill, skillsHeaderText, 'mouseover', 'Git');
 
-var githubSkill = document.getElementById('github-skill')!;
-this.applyTextOnHover(githubSkill, skillsHeaderText, 'mouseover', 'GitHub');
+// var githubSkill = document.getElementById('github-skill')!;
+// this.applyTextOnHover(githubSkill, skillsHeaderText, 'mouseover', 'GitHub');
+
+var jiraSkill = document.getElementById('jira-skill')!;
+this.applyTextOnHover(jiraSkill, skillsHeaderText, 'mouseover', 'Jira');
 
 var awsSkill = document.getElementById('aws-skill')!;
 this.applyTextOnHover(awsSkill, skillsHeaderText, 'mouseover', 'Amazon Web Services');
