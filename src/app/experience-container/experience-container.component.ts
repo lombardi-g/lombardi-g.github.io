@@ -35,6 +35,9 @@ var ultragaz = document.getElementById('ultragaz')!;
 this.applyTextOnHover(ultragaz, experienceHeaderText, 'mouseover', 'Business inteligence, SQL, data analytics');
 
 var atlassian = document.getElementById('atlassian')!;
-this.applyTextOnHover(atlassian, experienceHeaderText, 'mouseover', 'ITSM, Customer support services')
+this.applyTextOnHover(atlassian, experienceHeaderText, 'mouseover', 'ITSM, Customer support services');
+
+var move = document.getElementById('move')!;
+this.applyTextOnHover(move, experienceHeaderText, 'mouseover', 'Automations, data analytics, business intelligence')
 }
 }
